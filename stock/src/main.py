@@ -55,5 +55,5 @@ def main(page: ft.Page):
     page.add(title, refresh_btn, table)
     load_data()  # Load data on start
 
-ft.app(target=main)
+ft.app(target=main, view=ft.WEB_BROWSER)
 
